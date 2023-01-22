@@ -280,3 +280,5 @@ poetry.toml
 # End of https://www.toptal.com/developers/gitignore/api/python,visualstudiocode,pycharm+all
 
 .notes/
+urls.json
+main.py
