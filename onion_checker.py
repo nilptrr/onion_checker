@@ -10,6 +10,7 @@ def check_onion(urls: list) -> None:
     check_result = dict()
 
     for index, url in enumerate(urls):
+        # check url is valid
         url_is_valid: True | validators.ValidationFailure = validators.url(url)
 
         if url_is_valid:
